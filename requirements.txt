@@ -1,0 +1,10 @@
+langgraph
+langchain
+langchain-openai
+python-dotenv
+langchain-community
+langchain-text-splitters
+chromadb
+fastapi
+uvicorn
+pyttsx3  # optional: local TTS for --tts and speech adapters

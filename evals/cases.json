@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Router reset - tech",
+    "input": "How do I reset my router?",
+    "expect_intent": "technical_support",
+    "expect_needs_human": false
+  },
+  {
+    "name": "Cancel subscription - restricted",
+    "input": "Please cancel my subscription",
+    "expect_intent": "restricted_action",
+    "expect_needs_human": true
+  },
+  {
+    "name": "Too short - unknown",
+    "input": "Help",
+    "expect_intent": "unknown",
+    "expect_needs_human": false
+  }
+]
